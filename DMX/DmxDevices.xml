@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DMX_DEVICES>
+	<profile name="traceport">
+		<inputDevice id="first light box" channelCount="3" firstChannel="1">
+			<outputDevice type="log-3ch" param="1"></outputDevice>
+		</inputDevice>
+	</profile>
+</DMX_DEVICES>

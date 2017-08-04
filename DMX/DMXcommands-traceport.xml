@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DMX_CONTROL version="2.00" log="yes" port="23000" deviceProfile="traceport">
+	<color name="Accent" value="0x0"></color>
+	<!-- ********************************************************************************************* -->
+	<event type="SOMETHING_HITS_PLAYER">
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of first light box -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of first light box -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of first light box -->
+		</timeblock>
+	</event>
+	<!-- ********************************************************************************************* -->
+	<event type="ALL_FIGHTERS_DOCKED" continuous="yes">
+		<timeblock mseconds="1000">
+			<setvalue index="0" value="0" change="0"></setvalue>
+			<!-- red value of first light box -->
+			<setvalue index="1" value="0" change="0"></setvalue>
+			<!-- green value of first light box -->
+			<setvalue index="2" value="0" change="0"></setvalue>
+			<!-- blue value of first light box -->
+		</timeblock>
+	</event>
+</DMX_CONTROL>
